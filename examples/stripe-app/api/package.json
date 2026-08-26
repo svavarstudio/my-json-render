@@ -12,7 +12,7 @@
   "dependencies": {
     "@ai-sdk/gateway": "^3.0.50",
     "ai": "^6.0.91",
-    "next": "^16.1.6",
+    "next": "^16.2.11",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
