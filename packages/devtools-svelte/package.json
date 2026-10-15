@@ -54,11 +54,11 @@
     "@internal/typescript-config": "workspace:*",
     "@sveltejs/package": "^2.3.0",
     "@sveltejs/vite-plugin-svelte": "^6.2.4",
-    "svelte": "^5.0.0",
+    "svelte": "^5.55.7",
     "svelte-check": "^4.0.0",
     "typescript": "^5.4.5"
   },
   "peerDependencies": {
-    "svelte": "^5.0.0"
+    "svelte": "^5.55.7"
   }
 }

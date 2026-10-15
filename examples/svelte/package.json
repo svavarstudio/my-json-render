@@ -12,7 +12,7 @@
   "dependencies": {
     "@json-render/core": "workspace:*",
     "@json-render/svelte": "workspace:*",
-    "svelte": "^5.49.2",
+    "svelte": "^5.55.7",
     "zod": "4.3.6"
   },
   "devDependencies": {
