@@ -12,6 +12,12 @@
 
 ## Quick Start
 
+These examples are packages in the repository's pnpm workspace. Install from
+this checkout with its pinned pnpm version; the root `pnpm-lock.yaml` is the
+shared lockfile, including when `pnpm install` runs from an example directory.
+The `workspace:*` dependencies require the rest of this repository. A copied
+example directory is not a standalone installable package.
+
 ### 1. Start the API server
 
 ```bash
