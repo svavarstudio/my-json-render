@@ -15,6 +15,8 @@ export default defineConfig({
       include: ["**/*.svelte", "**/bits-ui/**/*.svelte", "**/vaul-svelte/**/*.svelte"],
     }),
     solid({
+      // Tests do not need HMR; its virtual refresh URL is invalid on Windows.
+      hot: false,
       // Only transform files in the solid package to avoid interfering with React JSX
       include: ["packages/solid/**/*.{ts,tsx}"],
     }),

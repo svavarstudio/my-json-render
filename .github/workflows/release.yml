@@ -15,6 +15,8 @@ permissions:
 
 jobs:
   check-release:
+    # This fork must not attempt to publish the upstream @json-render namespace.
+    if: github.repository == 'vercel-labs/json-render'
     name: Check for new version
     runs-on: ubuntu-latest
     timeout-minutes: 5
