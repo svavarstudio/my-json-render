@@ -99,11 +99,13 @@ describe("renderToSvg", () => {
 });
 
 describe("renderToPng", () => {
+  // Cold native resvg initialization took 17s on the hosted Windows runner.
+  // Keep the warm-render check below on Vitest's default timeout.
   it("produces a buffer with content", async () => {
     const png = await renderToPng(minimalSpec);
     expect(png.length).toBeGreaterThan(0);
     expect(png.byteLength).toBeGreaterThan(0);
-  });
+  }, 30_000);
 
   it("starts with PNG magic bytes", async () => {
     const png = await renderToPng(minimalSpec);

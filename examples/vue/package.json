@@ -11,13 +11,13 @@
   "dependencies": {
     "@json-render/core": "workspace:*",
     "@json-render/vue": "workspace:*",
-    "vue": "^3.5.0",
+    "vue": "^3.5.44",
     "zod": "4.3.6"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.4",
     "typescript": "^5.9.3",
-    "vite": "^7.3.1",
+    "vite": "^7.3.7",
     "vue-tsc": "^3.2.5"
   }
 }
